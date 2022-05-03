@@ -8,9 +8,9 @@ public class Activity1 {
 		
 		toyota.make = 2014;
 				
-		toyota.color = "Black";
+		toyota.color = "White";
 		
-		toyota.transmission = "Manual";
+		toyota.transmission = "Automatic";
 		
 				
 		toyota.displayCharacteristics();
