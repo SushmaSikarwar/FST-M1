@@ -8,7 +8,7 @@ public class Activity1 {
 		
 		toyota.make = 2014;
 				
-		toyota.color = "White";
+		toyota.color = "Gold";
 		
 		toyota.transmission = "Automatic";
 		
