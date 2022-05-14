@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Activity4 {
 	
 	
-	static void insertionSort(int array[]) {
+	static void insertionSort(int[] array) {
 		
 		int size = array.length;
 		
@@ -28,7 +28,7 @@ public class Activity4 {
 	
 	public static void main(String[] args) {
 		
-		int array[] = { 18, 11, 12, 19, 15};
+		int[] array = { 18, 11, 12, 19, 15};
 		
 		System.out.println("Array before Sorting:");
 		
