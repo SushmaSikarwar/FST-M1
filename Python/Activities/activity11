@@ -1,0 +1,12 @@
+fruit_shop = {
+    "Apple":10,
+    "Banana":15,
+    "Orange":8,
+    "Peaches":15
+    }
+
+key_to_chk = input("What are you looking for? ").lower()
+if (key_to_chk in fruit_shop):
+    print("Yes, this is available")
+else:
+    print("No, this is not available")
