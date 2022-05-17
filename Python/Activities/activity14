@@ -7,7 +7,7 @@ def fibonacci(num):
 nterms = int(input("Enter a number: "))
 
 if nterms <= 0:
-    nterms = int(input("Please enter a positive number: "))
+    print("Please enter a positive number: ")
 else:
     print("Fibonacci Sequence: ")
     for i in range(nterms):
