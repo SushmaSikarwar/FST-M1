@@ -1,0 +1,11 @@
+def calculate_sum(numbers):
+    sum = 0
+    for num in numbers:
+        sum += num
+    return sum
+
+numList = [10,40,60,90,20,15]
+
+result = calculate_sum(numList)
+
+print("The sum of all the element is: ", str(result))
