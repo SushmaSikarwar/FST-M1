@@ -1,6 +1,5 @@
 package project_activities;
 
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,9 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-import static org.junit.Assert.assertEquals;
-
-public class Project_Act4 {
+public class Project_Act7 {
 
     public static void main(String[] args) throws InterruptedException {
 
@@ -33,10 +30,23 @@ public class Project_Act4 {
 
         login.submit();
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"toolbar\"]/ul/li[1]/a")));
+        Thread.sleep(5000);
 
-        System.out.println("Login Successful");
+        driver.findElement(By.id("grouptab_0")).click();
+        driver.findElement(By.id("moduleTab_9_Leads")).click();
+
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//tbody/tr[1]td[10]/span[1]span[1]")));
+
+        driver.findElement(By.xpath("//tbody/tr[1]td[10]/span[1]span[1]\"")).click();
+
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//span[@class='phone'])[1]]")));
+
+        WebElement phone = driver.findElement(By.xpath("(//span[@class='phone'])[1]"));
+
+        String phoneNumber = phone.getText();
+
+        System.out.println("The number is :"+ phoneNumber);
 
         driver.close();
 
