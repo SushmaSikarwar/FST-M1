@@ -30,7 +30,7 @@ SALESMAN_ID	SALESMAN_NAME	ORDER_NO	'HIGHESTON'	ORDER_DATE
     5001	James Hoot	    70008	    highest on	 15-AUG-12
     5001	James Hoot	    70008	    lowest on	 15-AUG-12
     5001	James Hoot	    70013	    highest on	 25-APR-12
-    5001	James Hoot	    70013	l   owest on	 25-APR-12
+    5001	James Hoot	    70013	    lowest on	 25-APR-12
     5003	Lauson Hen	    70003	    highest on	 10-OCT-12
     5003	Lauson Hen	    70004	    highest on	 17-AUG-12
     5005	Pit Alex	    70009	    lowest on	 10-SEP-12
