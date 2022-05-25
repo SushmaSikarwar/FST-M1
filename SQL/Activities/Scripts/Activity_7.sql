@@ -21,3 +21,9 @@ select MIN(purchase_amount) AS "Minumum" from orders;
 OUTPUT :
 Minumum
 65.26
+
+select COUNT(distinct salesman_id) AS "Total count" from orders;
+
+OUTPUT :
+Total count
+6
