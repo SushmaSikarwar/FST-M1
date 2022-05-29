@@ -35,14 +35,14 @@ public class Project_Act7 {
         driver.findElement(By.id("grouptab_0")).click();
         driver.findElement(By.id("moduleTab_9_Leads")).click();
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//tbody/tr[1]td[10]/span[1]span[1]")));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[4]/div/div[3]/form[2]/div[3]/table/tbody/tr[1]/td[10]/span/span")));
 
-        driver.findElement(By.xpath("//tbody/tr[1]td[10]/span[1]span[1]\"")).click();
+        driver.findElement(By.xpath("/html/body/div[4]/div/div[3]/form[2]/div[3]/table/tbody/tr[1]/td[10]/span/span")).click();
 
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//span[@class='phone'])[1]]")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[4]/div/div[7]/div[1]/span/div[1]")));
 
-        WebElement phone = driver.findElement(By.xpath("(//span[@class='phone'])[1]"));
+        WebElement phone = driver.findElement(By.xpath("/html/body/div[4]/div/div[7]/div[2]/span"));
 
         String phoneNumber = phone.getText();
 
