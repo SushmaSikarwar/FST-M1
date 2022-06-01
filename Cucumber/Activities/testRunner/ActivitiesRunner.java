@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "Cucumber/Activities/Features",
         glue = {"stepDefinitions"},
-        tags = "@SmokeTest"
+        tags = "@activity2"
 )
 public class ActivitiesRunner {
 
