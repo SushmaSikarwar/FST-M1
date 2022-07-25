@@ -16,10 +16,9 @@ public class Activity10_a {
 
         Actions actions = new Actions(driver);
 
-        //Open browser
         driver.get("https://www.training-support.net/selenium/input-events");
 
-        //Find the cude
+        //Find the cube
         WebElement cube = driver.findElement(By.id("wrapD3Cube"));
 
         //Left click
@@ -37,7 +36,6 @@ public class Activity10_a {
         cubeVal = driver.findElement(By.className("active"));
         System.out.println("Right Click: " + cubeVal.getText());
 
-        //Close browser
         driver.close();
     }
 
