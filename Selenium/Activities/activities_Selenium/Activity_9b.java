@@ -25,6 +25,7 @@ public class Activity_9b {
         //Find multiList
         Select multiList = new Select(driver.findElement(By.id("multi-select")));
 
+
         if(multiList.isMultiple()) {
 
             //Select 'JavaScript' by Visible text
