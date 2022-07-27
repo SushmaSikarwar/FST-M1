@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="softwaretestingmaterial">
+    <test name="testngTest">
+        <classes>
+            <class name="TestNG_Examples.Example1" />
+            <class name="TestNG_Examples.Example2" />
+            <class name="TestNG_Examples.Asserts_Example" />
+            <class name="TestNG_Examples.AssertsInTestNG" />
+        </classes>
+    </test>
+</suite>
