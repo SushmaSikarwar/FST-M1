@@ -10,7 +10,7 @@ public class BankAccount {
 
     // Add method to calculate
     // balance amount after withdrawal
-    public Integer withdraw(Integer amount) {
+    public Integer withdraw(Integer amount) throws NotEnoughFundsException {
         if (balance < amount) {
             throw new NotEnoughFundsException(amount, balance);
         }
